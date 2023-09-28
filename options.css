@@ -1,0 +1,48 @@
+/* ---------------------- */
+/*    General 	          */
+/* ---------------------- */
+body {
+	width: 60%;
+	margin: auto;
+	background-color: white;
+}
+
+/* ---------------------- */
+/*    Header	          */
+/* ---------------------- */
+#optionHeader {
+	width: 100%;
+	background-color: #FBBC05;
+}
+
+#optionHeader H1 {
+	height: 40px;
+	margin-left: 25px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+/* ---------------------- */
+/*    Main Content        */
+/* ---------------------- */
+#optionContent {
+	margin-top: auto;
+}
+
+#optionContent p {
+	height: 25px;
+	vertical-align: middle;
+	text-align: justify;
+	margin-top: auto;
+	background-color: #337AB7;
+	color: white;
+}
+
+/* ---------------------- */
+/*    Footer	          */
+/* ---------------------- */
+#optionFooter {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}

@@ -1,0 +1,40 @@
+{
+	"name": "Mini Therap",
+	"description": "Application to consodilate Therap website for NorthBridge Staff",
+	"version": "0.9",
+	"manifest_version": 3,
+
+	"icons": {
+	   "16": "images/App-Icon16.png",
+       "32": "images/App-Icon32.png",
+       "48": "images/App-Icon48.png",
+       "128": "images/App-Icon128.png"
+	},
+
+	"background": {
+		"service_worker": "background.js",
+		"type": "module"
+	},
+
+	"action": {
+		"default_popup": "popup.html"
+	},
+	
+	"options_page": "options.html",
+	
+	"permissions": [
+		"storage",
+		"activeTab",
+		"scripting",
+		"tabs"
+	],
+	
+	"host_permissions": [
+		"https://*.therapservices.net/*"
+	],
+	"scripts": [
+		"common.js",
+		"popup.js",
+		"options.js"
+	]
+}
